@@ -106,5 +106,6 @@ setInterval(() => {
 
 function LoadPDF()
 {
-    window.location.href = "https://www.google.com";
+    window.location.href = "Bakang Ramadie CV.pdf";
+
 }
