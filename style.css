@@ -1,3 +1,22 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;   /* safety net only */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
 @font-face 
 {
     font-family: 'Pixel Operator';
@@ -401,7 +420,13 @@ input:checked + .slider:before {
     background-image: url("entertainer.png");
     border: 1px solid black;
 }
-
+.lockin-img,
+.entertainer-img,
+.loclin-text,
+.entertainer-text {
+    flex: 1 1 0;
+    min-width: 0;
+}
 .just-to-know-section
 {
     justify-items: center;
@@ -487,6 +512,8 @@ input:checked + .slider:before {
    background-color: rgba(0, 0, 27, 0.863);
 }
 .faq-section {
+    flex-direction: column;/*new*/
+    padding: 20px;/*new*/
     display: flex;
     gap: 20px;
     padding: 40px;
@@ -715,6 +742,19 @@ input:checked + .slider:before {
 
 /* MOBILE */
 @media(max-width: 768px) {
+    .mode-section {
+    flex-direction: column;
+    padding: 15px;
+}
+.lockin-img,
+.entertainer-img {
+    width: 100%;
+    min-height: 240px;
+}
+.loclin-text,
+.entertainer-text {
+    width: 100%;
+}
     .contact-container {
         flex-direction: column;
         align-items: center;
@@ -776,14 +816,15 @@ input:checked + .slider:before {
     .profile-section-words{
         width: 100%;
     }
-    .profile-image{
-        height: 200px;
-        width: 100%;
-        left:25px;
-    }
-    .profile-image img{
-        height:200px;
-    }
+.profile-image {
+    height: 200px;
+    width: 100%;
+}
+.profile-image img {
+    height: 200px;
+    width: 100%;
+    object-fit: contain;   /* keeps aspect ratio, never overflows */
+}
     .feature-item
     {
          transform: none !important;
