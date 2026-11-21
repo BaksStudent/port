@@ -1,32 +1,32 @@
 const descriptions = {
     game:
     {
-        text:`This is and will forever be my first love, i've been obsesed with game development since i was 15 and i started developing on unity ever since, now i know game development is not as popular in souht africa but i would definieted like be at a company wherby i do this`,
+        text:`This is, and will forever be, my first love. I've been obsessed with game development since I was 15 and have been developing in Unity ever since. While I know game development isn't as prominent in South Africa, I would definitely love to be at a company where I get to do this.`,
         img:"game.png"
     },
     software:
     {
-        text:`Just like making games, making apps is always a process that i have always been interested it, as such challenges make the more worth it when the application does it intended purpose`,
+        text:`Just like making games, building applications is a process I have always been interested in—the challenges make it all the more rewarding when the application serves its intended purpose.`,
         img:"software.en.png"
     },
     dev:
     {
-        text:`I am a person that likes fixing things that don't fucntion as intended or need troubleshooting as i like solving problems step by step so this is why DevOps reasonates with me as it thrives on collaborative troubleshooting and iterative refinement`,
+        text:`I am a person who likes fixing things that don't function as intended or need troubleshooting, as I enjoy solving problems step by step. This is why DevOps resonates with me, as it thrives on collaborative troubleshooting and iterative refinement`,
         img:"DevOps.png"
     },
     front_end:
     {
-        text:`Nothing is more satisfy then being given a canvas and being told to draw,whether i am given free control or under guidlines. This gives me the platform to give exceptional quality`,
+        text:`Nothing is more satisfying than being given a canvas and being told to draw—whether I am given free control or working within guidelines, it gives me the platform to deliver exceptional quality.`,
         img:"ui dev.png"
     },
     back_end:
     {
-        text:`There is just something so fun about connecting databases and front-end and using information to create different yet needed results so enticing, from encryption and hashing to sql,Just give it all to me`,
+        text:`There is just something so fun and enticing about connecting databases to the front end and transforming information into different, purposeful results. From encryption and hashing to SQL—just give it all to me.`,
         img:"Back-end.png"
     },
     Network:
     {
-        text:`This is definitely my secret desire. I just love the process of configiruing all network devices and then that feeling of satisfaction when everything is working in harmony, even the troubleshooting parts: i just love the process of find out whats wrong eith a process then fixing it`,
+        text:`This is definitely my secret desire. I just love the process of configuring all the network devices and getting that feeling of satisfaction when everything is working in harmony. Even the troubleshooting parts—I just love the process of finding out what's wrong with a system and fixing it.`,
         img: "Network-en.png"
     }
     
